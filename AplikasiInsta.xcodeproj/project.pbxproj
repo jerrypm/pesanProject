@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C4232BD41FFAF1B800696A55 /* NewMassageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4232BD31FFAF1B800696A55 /* NewMassageController.swift */; };
+		C4232BD71FFB0AB700696A55 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4232BD61FFB0AB700696A55 /* User.swift */; };
+		C4232BD91FFC4F2200696A55 /* loginController+handlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4232BD81FFC4F2200696A55 /* loginController+handlers.swift */; };
+		C43570BA1FF3105E00E4CEBF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C43570B91FF3105E00E4CEBF /* GoogleService-Info.plist */; };
+		C463ED9C1FCDC8EF0098402B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C463ED9B1FCDC8EF0098402B /* AppDelegate.swift */; };
+		C463ED9E1FCDC8EF0098402B /* MassagesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C463ED9D1FCDC8EF0098402B /* MassagesController.swift */; };
+		C463EDA11FCDC8EF0098402B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C463ED9F1FCDC8EF0098402B /* Main.storyboard */; };
+		C463EDA31FCDC8EF0098402B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C463EDA21FCDC8EF0098402B /* Assets.xcassets */; };
+		C463EDA61FCDC8F00098402B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C463EDA41FCDC8F00098402B /* LaunchScreen.storyboard */; };
+		C465FBB12000E7D000637991 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C465FBB02000E7D000637991 /* Extensions.swift */; };
+		C465FBB32007BB8100637991 /* ChatLogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C465FBB22007BB8100637991 /* ChatLogController.swift */; };
+		C465FBCA200B89EC00637991 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = C465FBC9200B89EC00637991 /* Message.swift */; };
+		C465FBCC200FAC6D00637991 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C465FBCB200FAC6D00637991 /* UserCell.swift */; };
+		C4EC81AB1FDBF83D00630C87 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4EC81AA1FDBF83D00630C87 /* LoginController.swift */; };
+		E71FEDBA0A16BE776CDA49F3 /* Pods_AplikasiInsta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A63CF073F3EE9108D2F9A50 /* Pods_AplikasiInsta.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2F92565A2C806E461DD25A05 /* Pods-AplikasiInsta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AplikasiInsta.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AplikasiInsta/Pods-AplikasiInsta.debug.xcconfig"; sourceTree = "<group>"; };
+		71467FB72BD6F845FE95E57F /* Pods-AplikasiInsta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AplikasiInsta.release.xcconfig"; path = "Pods/Target Support Files/Pods-AplikasiInsta/Pods-AplikasiInsta.release.xcconfig"; sourceTree = "<group>"; };
+		8A63CF073F3EE9108D2F9A50 /* Pods_AplikasiInsta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AplikasiInsta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4232BD31FFAF1B800696A55 /* NewMassageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewMassageController.swift; sourceTree = "<group>"; };
+		C4232BD61FFB0AB700696A55 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		C4232BD81FFC4F2200696A55 /* loginController+handlers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "loginController+handlers.swift"; sourceTree = "<group>"; };
+		C43570B91FF3105E00E4CEBF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C463ED981FCDC8EF0098402B /* AplikasiInsta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AplikasiInsta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C463ED9B1FCDC8EF0098402B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C463ED9D1FCDC8EF0098402B /* MassagesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MassagesController.swift; sourceTree = "<group>"; };
+		C463EDA01FCDC8EF0098402B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C463EDA21FCDC8EF0098402B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C463EDA51FCDC8F00098402B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C463EDA71FCDC8F00098402B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C465FBB02000E7D000637991 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		C465FBB22007BB8100637991 /* ChatLogController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatLogController.swift; sourceTree = "<group>"; };
+		C465FBC9200B89EC00637991 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		C465FBCB200FAC6D00637991 /* UserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		C4EC81AA1FDBF83D00630C87 /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C463ED951FCDC8EF0098402B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E71FEDBA0A16BE776CDA49F3 /* Pods_AplikasiInsta.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F967ABB1E26792BE7ED2E27 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A63CF073F3EE9108D2F9A50 /* Pods_AplikasiInsta.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4AC02ADB6D3B77A9E87DBC0D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2F92565A2C806E461DD25A05 /* Pods-AplikasiInsta.debug.xcconfig */,
+				71467FB72BD6F845FE95E57F /* Pods-AplikasiInsta.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C4232BD51FFB0A8500696A55 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C4232BD61FFB0AB700696A55 /* User.swift */,
+				C465FBC9200B89EC00637991 /* Message.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C463ED8F1FCDC8EF0098402B = {
+			isa = PBXGroup;
+			children = (
+				C463ED9A1FCDC8EF0098402B /* AplikasiInsta */,
+				C463ED991FCDC8EF0098402B /* Products */,
+				4AC02ADB6D3B77A9E87DBC0D /* Pods */,
+				2F967ABB1E26792BE7ED2E27 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C463ED991FCDC8EF0098402B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C463ED981FCDC8EF0098402B /* AplikasiInsta.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C463ED9A1FCDC8EF0098402B /* AplikasiInsta */ = {
+			isa = PBXGroup;
+			children = (
+				C465FBB6200B352000637991 /* View */,
+				C465FBAF2000E7B100637991 /* Helper */,
+				C4232BD51FFB0A8500696A55 /* Model */,
+				C4EC81A51FDBF79D00630C87 /* Controller */,
+				C463ED9B1FCDC8EF0098402B /* AppDelegate.swift */,
+				C463ED9F1FCDC8EF0098402B /* Main.storyboard */,
+				C463EDA21FCDC8EF0098402B /* Assets.xcassets */,
+				C463EDA41FCDC8F00098402B /* LaunchScreen.storyboard */,
+				C463EDA71FCDC8F00098402B /* Info.plist */,
+				C43570B91FF3105E00E4CEBF /* GoogleService-Info.plist */,
+			);
+			path = AplikasiInsta;
+			sourceTree = "<group>";
+		};
+		C465FBAF2000E7B100637991 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				C465FBB02000E7D000637991 /* Extensions.swift */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		C465FBB6200B352000637991 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C465FBCB200FAC6D00637991 /* UserCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		C4EC81A51FDBF79D00630C87 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C4EC81AA1FDBF83D00630C87 /* LoginController.swift */,
+				C463ED9D1FCDC8EF0098402B /* MassagesController.swift */,
+				C4232BD31FFAF1B800696A55 /* NewMassageController.swift */,
+				C4232BD81FFC4F2200696A55 /* loginController+handlers.swift */,
+				C465FBB22007BB8100637991 /* ChatLogController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C463ED971FCDC8EF0098402B /* AplikasiInsta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C463EDAA1FCDC8F00098402B /* Build configuration list for PBXNativeTarget "AplikasiInsta" */;
+			buildPhases = (
+				0CAA7658555B84CE0CDBC417 /* [CP] Check Pods Manifest.lock */,
+				C463ED941FCDC8EF0098402B /* Sources */,
+				C463ED951FCDC8EF0098402B /* Frameworks */,
+				C463ED961FCDC8EF0098402B /* Resources */,
+				347ED5C04F15AFB49F37DF9C /* [CP] Embed Pods Frameworks */,
+				27B83827638D01B23B6AB067 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AplikasiInsta;
+			productName = AplikasiInsta;
+			productReference = C463ED981FCDC8EF0098402B /* AplikasiInsta.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C463ED901FCDC8EF0098402B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Next Project";
+				TargetAttributes = {
+					C463ED971FCDC8EF0098402B = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = C463ED931FCDC8EF0098402B /* Build configuration list for PBXProject "AplikasiInsta" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C463ED8F1FCDC8EF0098402B;
+			productRefGroup = C463ED991FCDC8EF0098402B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C463ED971FCDC8EF0098402B /* AplikasiInsta */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C463ED961FCDC8EF0098402B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C463EDA61FCDC8F00098402B /* LaunchScreen.storyboard in Resources */,
+				C43570BA1FF3105E00E4CEBF /* GoogleService-Info.plist in Resources */,
+				C463EDA31FCDC8EF0098402B /* Assets.xcassets in Resources */,
+				C463EDA11FCDC8EF0098402B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0CAA7658555B84CE0CDBC417 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AplikasiInsta-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		27B83827638D01B23B6AB067 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AplikasiInsta/Pods-AplikasiInsta-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		347ED5C04F15AFB49F37DF9C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AplikasiInsta/Pods-AplikasiInsta-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AplikasiInsta/Pods-AplikasiInsta-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C463ED941FCDC8EF0098402B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C465FBB32007BB8100637991 /* ChatLogController.swift in Sources */,
+				C4232BD41FFAF1B800696A55 /* NewMassageController.swift in Sources */,
+				C463ED9E1FCDC8EF0098402B /* MassagesController.swift in Sources */,
+				C465FBCA200B89EC00637991 /* Message.swift in Sources */,
+				C4EC81AB1FDBF83D00630C87 /* LoginController.swift in Sources */,
+				C4232BD71FFB0AB700696A55 /* User.swift in Sources */,
+				C4232BD91FFC4F2200696A55 /* loginController+handlers.swift in Sources */,
+				C463ED9C1FCDC8EF0098402B /* AppDelegate.swift in Sources */,
+				C465FBCC200FAC6D00637991 /* UserCell.swift in Sources */,
+				C465FBB12000E7D000637991 /* Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C463ED9F1FCDC8EF0098402B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C463EDA01FCDC8EF0098402B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C463EDA41FCDC8F00098402B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C463EDA51FCDC8F00098402B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C463EDA81FCDC8F00098402B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C463EDA91FCDC8F00098402B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C463EDAB1FCDC8F00098402B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F92565A2C806E461DD25A05 /* Pods-AplikasiInsta.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = AplikasiInsta/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nextproject.AplikasiInsta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C463EDAC1FCDC8F00098402B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71467FB72BD6F845FE95E57F /* Pods-AplikasiInsta.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = AplikasiInsta/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nextproject.AplikasiInsta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C463ED931FCDC8EF0098402B /* Build configuration list for PBXProject "AplikasiInsta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C463EDA81FCDC8F00098402B /* Debug */,
+				C463EDA91FCDC8F00098402B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C463EDAA1FCDC8F00098402B /* Build configuration list for PBXNativeTarget "AplikasiInsta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C463EDAB1FCDC8F00098402B /* Debug */,
+				C463EDAC1FCDC8F00098402B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C463ED901FCDC8EF0098402B /* Project object */;
+}
